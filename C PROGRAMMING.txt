@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+enum status { CONYINUE, WON, LOST }
+int rolldice( void );
+inrt main()
+(
+    int sum;
+    int mypoint;
+
+    enum status gamestatus;
+    srand( time( mull ) );
+    sum = rolldice( );
+)
+switch( sum ) {
+    case 7:
+    case 11:
+    gamestatus = WON;
+    break;
+    case 2:
+    case 3:
+    case 4:
+    gameStatus = LOST;
+    break;
+    default:
+    gameStatus = continue;
+    mypoint = sum;
+    printf( "point is %d\n", my point );
+    break;
+    while (game status = continue ) {
+        sum = rolldice( ); 
+        if ( sum = mypoint ){
+            gamestatus = WON;
+        }
+            else {
+                if (sum = 7 ) {
+                    gamestatus = LOST;
+                }
+            }
+        
+    }
+if ( gamestaus = WON ){
+    printf( "player wins\n" );
+    else {
+    printf( "")
+}
